@@ -6,7 +6,7 @@
     NAME 'soberMailObjectName' 
     DESC 'sober mail object name' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailObjectType
@@ -15,7 +15,7 @@
     NAME 'soberMailObjectType'
     DESC 'sober mail object type'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailSpamCheck
@@ -24,7 +24,7 @@
     NAME 'soberMailSpamCheck'
     DESC 'sober mail spam check'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailSpamAction
@@ -33,7 +33,7 @@
     NAME 'soberMailSpamAction'
     DESC 'sober mail spam action'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailSpamTag
@@ -42,7 +42,7 @@
     NAME 'soberMailSpamTag'
     DESC 'sober mail spam tag' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 #
 # soberMailAllowedExtensions
 (
@@ -50,7 +50,7 @@
     NAME 'soberMailAllowedExtension'
     DESC 'sober mail allowed extension'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailBlockedExtension
@@ -59,7 +59,7 @@
     NAME 'soberMailBlockedExtensions'
     DESC 'sober mail blocked extensions'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailVirusCheck
@@ -68,7 +68,7 @@
     NAME 'soberMailVirusCheck'
     DESC 'sober mail virus check'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
-    X-Origin 'Raidbr mail filter' 
+    X-Origin 'Sober mail filter' 
 )
 #
 # soberMailVirusAction
@@ -77,7 +77,7 @@
     NAME 'soberMailVirusAction'
     DESC 'sober mail virus action' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter' 
+    X-Origin 'Sober mail filter' 
 )   
 #
 # soberMailLimits
@@ -86,7 +86,7 @@
     NAME 'soberMailLimits'
     DESC 'sober mail limits'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailRuleName
@@ -95,7 +95,7 @@
     NAME 'soberMailRuleName'
     DESC 'sober mail rule name' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailRuleReject
@@ -104,7 +104,7 @@
     NAME 'soberMailRuleReject'
     DESC 'sober mail rule reject' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailRuleCopyTo
@@ -113,7 +113,7 @@
     NAME 'soberMailRuleCopyTo'
     DESC 'sober mail rule copy to' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailRuleCondition
@@ -122,7 +122,7 @@
     NAME 'soberMailRuleCondition'
     DESC 'sober mail rule condition' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 #
 # soberMailRuleAction
@@ -131,7 +131,7 @@
     NAME 'soberMailRuleAction'
     DESC 'sober mail rule action' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
-    X-Origin 'Raidbr mail filter'
+    X-Origin 'Sober mail filter'
 )
 
 # object Classes

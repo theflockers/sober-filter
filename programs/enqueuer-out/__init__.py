@@ -2,9 +2,9 @@
 '''
     @name Observi enqueuer 
     @author Leandro Mendes<leandro@wish4web.com.br>
-    @copyright Raid-Br
+    @copyright Sober
 
-    @brief This helper module is a Postfix content-filter for Raid-Br Observi.
+    @brief This helper module is a Postfix content-filter for Sober Observi.
            written by wish4 web.
            The copy and distribution of this software is protected by law.
 '''
