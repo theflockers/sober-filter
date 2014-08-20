@@ -1,7 +1,7 @@
 #/usr/bin/env python2.6
 '''
     @name Observi enqueuer 
-    @author Leandro Mendes<leandro@wish4web.com.br>
+    @author Leandro Mendes<theflockers@gmail.com>
     @copyright Sober
 
     @brief This helper module is a Postfix content-filter for Sober Observi.

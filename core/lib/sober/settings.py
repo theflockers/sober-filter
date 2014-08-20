@@ -57,7 +57,7 @@ class Settings:
 
     def get_blacklist(self):
         self.blacklist = {
-            'item': ('leandro@mp13.com.br',)
+            'item': ('theflockers@gmail.com',)
         }
 
         return self.blacklist
