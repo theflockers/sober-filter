@@ -1,0 +1,97 @@
+#!/bin/sh
+#
+# PROVIDE: redis
+# REQUIRE: DAEMON
+# BEFORE:  mail
+#
+#
+# You will need to set some variables in /etc/rc.conf to start sobermailfilter:
+#
+# redis=YES
+#
+# The following variables are optional:
+#
+#                                       # before starting amavisd
+
+if [ -f /etc/rc.subr ]; then
+        . /etc/rc.subr
+fi
+
+export PATH="$PATH:/sbin:/usr/sbin:/usr/pkg/bin:/usr/pkg/sbin"
+
+name="redis"
+rcvar=$name
+command="/usr/pkg/bin/redis-server"
+pidfile="/var/run/${name}.pid"
+dircfg="/usr/pkg/etc"
+required_files="${dircfg}/redis.conf"
+
+start_precmd="redis_prestart"
+start_cmd="redis_start"
+stop_cmd="redis_stop"
+status_cmd="redis_status"
+
+redis_prestart()
+{
+        [ ! -d /usr/pkg/var/redis ] && ( mkdir -p /usr/pkg/var/redis )
+        return 0
+}
+
+check_pid()
+{
+        PID=`cat ${pidfile} 2>/dev/null`
+        if [ -n "`ps --no-headers -p ${PID} 2>/dev/null`" ] 
+        then
+                echo "1"
+        else
+                echo "0"
+        fi
+}
+
+
+redis_start()
+{
+        if [ $(check_pid) -eq 1 ] 
+        then
+                echo "$name is running"
+                exit 1
+        fi
+        ${command} ${required_files} >/dev/null 2>&1
+        if [ $(check_pid) -eq 0 ]
+        then
+                echo "$name isn't initialized correctly."
+                exit 1 
+        fi
+        echo "$name initialized"
+        exit 0
+}
+
+redis_stop()
+{
+        [ -e ${pidfile} ] && (
+                echo -n "Stopping ${name}:"
+                while kill -9 `cat ${pidfile}` >/dev/null 2>&1
+                do
+                        echo -n '.'
+                done
+                echo ' STOPPED '
+                rm -f ${pidfile} 2>/dev/null
+        )
+}
+
+redis_status()
+{
+        if [ $(check_pid) -eq 1 ] 
+        then
+                echo "$name - main process is started" 
+        else
+                echo "$name - main process isn't started" 
+        fi
+}
+if [ -f /etc/rc.subr -a -f /etc/rc.conf \
+     -a -d /etc/rc.d ]; then
+        load_rc_config $name
+        run_rc_command ${1}
+else
+        echo "Isn't possible to start $name"
+fi
