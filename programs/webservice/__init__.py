@@ -14,7 +14,7 @@ import sober.config
 import sober.settings
 import sober.rule
 
-__version__ = 'Observi HTTP/1.0'
+__version__ = 'Sober HTTP/1.0'
 __service__ = 'sober'
 
 class WSHandler(SimpleHTTPRequestHandler):

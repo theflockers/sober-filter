@@ -27,9 +27,9 @@ try:
         raise sober.exception.NonRootException('this program must to be started as root')
 
     setproctitle.setproctitle('sober')
-    
+
     for prog in programs:
-        procs.append(subprocess.Popen(['python2.6', sober_path, '-p', prog]))
+        procs.append(subprocess.Popen(['python', sober_path, '-p', prog]))
 
     while True:
         time.sleep(10)

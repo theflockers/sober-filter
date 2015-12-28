@@ -1,0 +1,6 @@
+setproctitle
+python-magic
+ipcalc
+redis
+psycopg2
+python-ldap

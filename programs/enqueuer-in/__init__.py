@@ -1,10 +1,10 @@
 #/usr/bin/env python2.6
 '''
-    @name Observi enqueuer 
+    @name Sober enqueuer 
     @author Leandro Mendes<theflockers@gmail.com>
     @copyright Sober
 
-    @brief This helper module is a Postfix content-filter for Sober Observi.
+    @brief This helper module is a Postfix content-filter for Sober Sober.
            written by wish4 web.
            The copy and distribution of this software is protected by law.
 '''
@@ -27,13 +27,13 @@ import sober.exception
 import sober.logger
 import sober.enqueuer
 
-smtpd.__version__ = 'Observi (%s) ready!' % (__name__)
+smtpd.__version__ = 'Sober (%s) ready!' % (__name__)
 
 logger = sober.logger.Logger(__name__)
 
 __direction__ = 'in'
 
-class ObserviSMTP(smtpd.SMTPServer):
+class SoberSMTP(smtpd.SMTPServer):
 
     hchy        = None
     settings    = None
@@ -88,7 +88,7 @@ if __name__ == 'enqueuer-in':
     
     try:
         setproctitle.setproctitle('sober (%s: idle)' % (__name__))
-        sober = ObserviSMTP(localaddr, None, cfg)
+        sober = SoberSMTP(localaddr, None, cfg)
         asyncore.loop()
     except KeyboardInterrupt:
         sys.exit(0)

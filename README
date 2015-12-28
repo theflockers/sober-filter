@@ -1,6 +1,7 @@
 Pacotes necessarios:
 
 pacote file >= 5.05
+pacote libpq-dev
 easy_install-2.6 setproctitle
 easy_install-2.6 python-magic
 easy_install-2.6 ipcalc

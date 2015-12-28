@@ -1,10 +1,10 @@
 #/usr/bin/env python2.6
 '''
-    @name Observi scanner 
+    @name Sober scanner 
     @author Leandro Mendes<theflockers@gmail.com>
     @copyright Sober
 
-    @brief This helper module is a Postfix content-filter for Sober Observi.
+    @brief This helper module is a Postfix content-filter for Sober Sober.
            written by wish4 web.
            The copy and distribution of this software is protected by law.
 '''
