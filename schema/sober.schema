@@ -2,7 +2,7 @@
 #
 # soberMailVirusAction
 (
-    1.3.6.1.4.1.32543.1.1.137 
+    1.3.6.1.4.1.30531.1.1.137 
     NAME 'soberMailObjectName' 
     DESC 'sober mail object name' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -11,7 +11,7 @@
 #
 # soberMailObjectType
 (
-    1.3.6.1.4.1.32543.1.1.138 
+    1.3.6.1.4.1.30531.1.1.138 
     NAME 'soberMailObjectType'
     DESC 'sober mail object type'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -20,7 +20,7 @@
 #
 # soberMailSpamCheck
 (
-    1.3.6.1.4.1.32543.1.1.139
+    1.3.6.1.4.1.30531.1.1.139
     NAME 'soberMailSpamCheck'
     DESC 'sober mail spam check'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
@@ -29,7 +29,7 @@
 #
 # soberMailSpamAction
 (
-    1.3.6.1.4.1.32543.1.1.140
+    1.3.6.1.4.1.30531.1.1.140
     NAME 'soberMailSpamAction'
     DESC 'sober mail spam action'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -38,7 +38,7 @@
 #
 # soberMailSpamTag
 (
-    1.3.6.1.4.1.32543.1.1.151
+    1.3.6.1.4.1.30531.1.1.151
     NAME 'soberMailSpamTag'
     DESC 'sober mail spam tag' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -46,7 +46,7 @@
 #
 # soberMailAllowedExtensions
 (
-    1.3.6.1.4.1.32543.1.1.141
+    1.3.6.1.4.1.30531.1.1.141
     NAME 'soberMailAllowedExtension'
     DESC 'sober mail allowed extension'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -55,7 +55,7 @@
 #
 # soberMailBlockedExtension
 (
-    1.3.6.1.4.1.32543.1.1.142
+    1.3.6.1.4.1.30531.1.1.142
     NAME 'soberMailBlockedExtensions'
     DESC 'sober mail blocked extensions'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -64,7 +64,7 @@
 #
 # soberMailVirusCheck
 (
-    1.3.6.1.4.1.32543.1.1.143
+    1.3.6.1.4.1.30531.1.1.143
     NAME 'soberMailVirusCheck'
     DESC 'sober mail virus check'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
@@ -73,7 +73,7 @@
 #
 # soberMailVirusAction
 (
-    1.3.6.1.4.1.32543.1.1.144
+    1.3.6.1.4.1.30531.1.1.144
     NAME 'soberMailVirusAction'
     DESC 'sober mail virus action' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -82,7 +82,7 @@
 #
 # soberMailLimits
 (
-    1.3.6.1.4.1.32543.1.1.145
+    1.3.6.1.4.1.30531.1.1.145
     NAME 'soberMailLimits'
     DESC 'sober mail limits'
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -91,7 +91,7 @@
 #
 # soberMailRuleName
 (
-    1.3.6.1.4.1.32543.1.1.146
+    1.3.6.1.4.1.30531.1.1.146
     NAME 'soberMailRuleName'
     DESC 'sober mail rule name' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -100,7 +100,7 @@
 #
 # soberMailRuleReject
 (
-    1.3.6.1.4.1.32543.1.1.147
+    1.3.6.1.4.1.30531.1.1.147
     NAME 'soberMailRuleReject'
     DESC 'sober mail rule reject' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
@@ -109,7 +109,7 @@
 #
 # soberMailRuleCopyTo
 (
-    1.3.6.1.4.1.32543.1.1.148
+    1.3.6.1.4.1.30531.1.1.148
     NAME 'soberMailRuleCopyTo'
     DESC 'sober mail rule copy to' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -118,7 +118,7 @@
 #
 # soberMailRuleCondition
 (
-    1.3.6.1.4.1.32543.1.1.149
+    1.3.6.1.4.1.30531.1.1.149
     NAME 'soberMailRuleCondition'
     DESC 'sober mail rule condition' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -127,7 +127,7 @@
 #
 # soberMailRuleAction
 (
-    1.3.6.1.4.1.32543.1.1.150
+    1.3.6.1.4.1.30531.1.1.150
     NAME 'soberMailRuleAction'
     DESC 'sober mail rule action' 
     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
@@ -138,7 +138,7 @@
 #
 # soberMailObjetct
 (
-    1.3.6.1.4.1.32543.1.2.22
+    1.3.6.1.4.1.30531.1.2.22
     NAME 'soberMailObject'
     SUP top
     AUXILIARY 
@@ -147,7 +147,7 @@
 #
 # soberMailRule
 (
-    1.3.6.1.4.1.32543.1.2.23
+    1.3.6.1.4.1.30531.1.2.23
     NAME 'soberMailRule'
     SUP top
     AUXILIARY 
